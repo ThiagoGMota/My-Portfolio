@@ -1,0 +1,39 @@
+
+.main{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+
+  i{
+    font-size: 40px;
+    color: var(--letras-);
+    border: 2px solid transparent;
+    border-radius: 100%;
+    padding: 20px;
+  }
+  & i:hover{
+    border: 2px solid var(--borda-destaque);
+    transition: .4s ease;
+    color: var(--borda-destaque);
+    cursor: pointer;
+
+  }
+}
+@media (max-width:430px){
+  .main{
+    flex-direction: row;
+
+    i{
+      font-size: 30px;
+    }
+  }
+}
+@media (max-width:900px){
+  .main{
+    flex-direction: row;
+  }
+}
+

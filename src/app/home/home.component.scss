@@ -1,0 +1,120 @@
+#div1{
+  display: flex;
+  height: 100%;
+
+  .name{
+    width: 80%;
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1,
+    p{
+      position: relative;
+      left: 125px;
+      color: var(--letras-);
+    }
+
+    h1{
+      font-size:100px;
+      font-weight:600;
+
+    }
+    p{
+      font-size: 30px;
+      top: 80px;
+      color: var(--borda-destaque);
+
+    }
+  }
+  app-social-media{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(31, 31, 52);
+    border-radius: 20px;
+    background: #1f1f34;
+  }
+}
+@media (min-width:1036px)and (max-width:1400px){
+  #div1{
+    .name{
+      h1{
+        font-size: 80px;
+    }
+    }
+
+  }
+}
+@media (max-width:900px){
+  #div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .name{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 70%;
+
+      h1{
+        position: static;
+        padding-bottom: 20px;
+      }
+      p{
+        position: static;
+      }
+    }
+    app-social-media{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      height: 30%;
+    }
+  }
+}
+@media (max-width:430px){
+  #div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .name{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 70%;
+
+      h1{
+        font-size: 40px;
+        position: static;
+        padding-bottom: 20px;
+      }
+      p{
+        position: static;
+        font-size: 20px;
+      }
+    }
+    app-social-media{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      height: 30%;
+    }
+  }
+}
+
+
+
+
+

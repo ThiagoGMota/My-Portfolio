@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family: 'Poppins';
+  background-color: var(--fundo-);
+  border: 2px solid red;
+  overflow-x: hidden;
+}
+:root{
+  --div-1:#393d5a;
+  --div-2:#2e2e2e;
+  --borda2-destaque:#671045;
+  --borda-destaque: #f9b17a;
+  --fundo-:#2d3250;
+  --letras-:#d1dab9;
+}
+h1,h2,h3,p,a,li{
+  color: var(--letras-);
+}
+
