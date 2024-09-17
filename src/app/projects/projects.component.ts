@@ -26,6 +26,14 @@ export class ProjectsComponent {
     },
     {
       id:2,
+    title:"Classroom Of the Elite",
+    description:"Fan Site da light novel",
+    imageUrl:"youjitsuMac.png",
+    link:"https://youjitsu.vercel.app/",
+    linkGitHub:"https://github.com/ThiagoGMota/Youjitsu-",
+    },
+    {
+      id:3,
     title:"Chess Championship",
     description:"Landing page torneio de xadrez",
     imageUrl:"lpChessMac.png",
