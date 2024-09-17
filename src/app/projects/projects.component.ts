@@ -18,11 +18,11 @@ export class ProjectsComponent {
   projects: Project[] = [
     {
       id: 1,
-      title: 'Projeto 1',
-      description: 'Descrição do Projeto 1',
-      imageUrl: 'logo1.jpg',
-      link: 'https://',
-      linkGitHub: 'https://github.com/'
+      title: 'MyMoney',
+      description: 'Gestor financeiro pessoal',
+      imageUrl: 'myMoneyMac.png',
+      link: 'https://my-moneymanager.vercel.app/',
+      linkGitHub: 'https://github.com/ThiagoGMota/MyMoney'
     },
     {
       id:2,
@@ -36,9 +36,17 @@ export class ProjectsComponent {
       id: 4,
       title: 'Este Portfólio',
       description: '',
-      imageUrl: 'logo1.jpg',
-      link: 'https://',
-      linkGitHub: 'https://github.com/'
+      imageUrl: 'portfolio-thiago-pc-screen.png',
+      link: 'https://thiagomotadeveloper.vercel.app/',
+      linkGitHub: 'https://github.com/ThiagoGMota/My-Portfolio'
     },
+    /* {
+      id:5,
+      title:"Calc Anything",
+      description:"Site Calc Enything",
+      imageUrl:"#",
+      link:"",
+      linkGitHub:"",
+    } */
   ];
 }

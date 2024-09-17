@@ -9,5 +9,25 @@
   transition: box-shadow 0.3s ease-in-out;
   width: 100%;
   height: 100%;
+  div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
 
+    a{
+      border-radius: 10px;
+      width: 150px;
+      border: 2px transparent solid;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      text-decoration: none;
+      background-color: rgb(60, 42, 124);
+      &:hover{
+        color: var(--borda-destaque);
+        border:2px solid var(--borda-destaque);
+      }
+    }
+  }
 }

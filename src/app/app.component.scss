@@ -19,6 +19,13 @@
   height: 100%;
 
 }
+#contact{
+  display: flex;
+  flex-direction: column;
+  img{
+    width: 50px;
+  }
+}
 
  #about, #services, #languages, #projects, #contact{
   animation: scrolla 5s ease-in-out;

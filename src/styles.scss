@@ -11,7 +11,6 @@ html {
 body{
   font-family: 'Poppins';
   background-color: var(--fundo-);
-  border: 2px solid red;
   overflow-x: hidden;
 }
 :root{
@@ -24,5 +23,21 @@ body{
 }
 h1,h2,h3,p,a,li{
   color: var(--letras-);
+}
+/* Largura e altura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem vertical */
+  height: 8px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(196, 184, 184, 0.3); /* Cor do polegar da barra de rolagem */
+  border-radius: 4px; /* Arredondamento do polegar da barra de rolagem */
+}
+
+/* Estilo da trilha da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Cor da trilha da barra de rolagem */
 }
 
