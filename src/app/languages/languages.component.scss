@@ -33,3 +33,23 @@ main{
 
   }
 }
+.logo{
+  display: block;
+}
+@media (max-width:430px) {
+  main{
+    width: 200px;
+    height: 200px;
+    ul{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 300px;
+
+      .logo{
+        display: none;
+      }
+    }
+
+  }
+}

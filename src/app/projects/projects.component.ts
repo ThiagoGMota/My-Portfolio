@@ -48,13 +48,13 @@ export class ProjectsComponent {
       link: 'https://thiagomotadeveloper.vercel.app/',
       linkGitHub: 'https://github.com/ThiagoGMota/My-Portfolio'
     },
-    /* {
+    {
       id:5,
-      title:"Calc Anything",
-      description:"Site Calc Enything",
-      imageUrl:"#",
-      link:"",
-      linkGitHub:"",
-    } */
+      title:"Advocacia Mota",
+      description:"Projeto Pessoal Advocacia",
+      imageUrl:"advocaciaMac.png",
+      link:"https://thiagogmota.github.io/error-page/",
+      linkGitHub:"https://thiagogmota.github.io/error-page/",
+    }
   ];
 }

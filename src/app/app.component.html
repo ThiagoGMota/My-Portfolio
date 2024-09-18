@@ -9,57 +9,68 @@
       </div>
     </app-main-div>
   </div>
-  <h1>Versão ainda em desenvolvimento ...</h1>
-
 
   <div class="container" id="about">
     <app-main-div>
       <app-about-me></app-about-me>
     </app-main-div>
   </div>
-  <h1>Versão ainda em desenvolvimento ...</h1>
 
   <div class="container" id="services">
     <app-main-div>
       <app-services></app-services>
     </app-main-div>
   </div>
-  <h1>Versão ainda em desenvolvimento ...</h1>
 
   <div class="container" id="projects">
-    <app-main-div>
-      <app-projects>
 
-      </app-projects>
+    <app-main-div>
+      <app-projects></app-projects>
     </app-main-div>
   </div>
-  <h1>Versão ainda em desenvolvimento ...</h1>
-
 
   <div class="container" id="languages">
     <app-main-div>
       <app-languages></app-languages>
     </app-main-div>
   </div>
-  <h1>Versão ainda em desenvolvimento ...</h1>
 
   <div class="container" id="contact">
-    <app-main-div>
-      <a href=""><img src="icon-instagram.svg" alt=""></a>
-    </app-main-div>
-  </div>
-  <h1>Versão ainda em desenvolvimento ...</h1>
+    <app-main-div >
+      <div id="contact_">
+        <form action="https://formsubmit.co/thiagomota.developer@outlook.com" method="POST">
+          <h1>Entre em contato</h1>
+          <label for="name">Nome</label>
+          <input type="text" name="name" required>
 
-  <div class="container">
-    <app-main-div>
-      <div class="footer">
-        <h1>Obrigado</h1>
-        <a href="#home">Voltar para o topo</a>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+
+          <label for="phone">Telefone/Whatsapp</label>
+          <input type="tel" name="phone" id="phone" required>
+
+          <label for="texto">Digite sua mensagem</label>
+          <input type="text" name="texto" id="texto" required>
+
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="div1">
+          <a href="https://www.instagram.com/thiago_gmota/" target="_blank"><img src="icon-instagram.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/thiagogmota/" target="_blank"><img src="icon-linkedin.svg" alt=""></a>
+          <a href="https://github.com/ThiagoGMota" target="_blank"><img src="icon-github.svg" alt=""></a>
+        </div>
       </div>
 
     </app-main-div>
   </div>
 
+  <div class="container">
+    <app-main-div>
+      <div class="footer">
+        <a href="#home">Voltar para o topo</a>
+      </div>
+    </app-main-div>
+  </div>
 </main>
 
-<router-outlet></router-outlet>
+<router-outlet/>

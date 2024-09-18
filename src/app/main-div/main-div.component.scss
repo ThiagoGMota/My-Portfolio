@@ -1,6 +1,7 @@
 div{
   border: 2px solid var(--borda-destaque);
   background-color: var(--div1-);
+  flex-direction: column;
   height: 550px;
   width: 92.5%;
   margin: 50px 50px;

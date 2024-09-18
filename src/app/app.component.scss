@@ -17,15 +17,9 @@
   padding: 50px 0;
   width: 100%;
   height: 100%;
+}
 
-}
-#contact{
-  display: flex;
-  flex-direction: column;
-  img{
-    width: 50px;
-  }
-}
+
 
  #about, #services, #languages, #projects, #contact{
   animation: scrolla 5s ease-in-out;
@@ -47,7 +41,55 @@
 app-main-div{
   overflow: scroll;
 }
-@keyframes scrolla{
+#contact_{
+  display: flex;
+  align-items: center;
+  h1{
+    text-align: center;
+  }
+  .div1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    a{
+      img{
+        width: 100px;
+      }
+    }
+
+  }
+  form{
+    color: var(--letras-);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    input{
+      height: 50px;
+      width: 400px;
+      font-size: 20px;
+      padding: 5px;
+      margin-bottom: 20px;
+    }
+    button{
+      width: 200px;
+      padding: 10px;
+    }
+  }
+}
+@keyframes scrolla {
+  0% {
+      opacity: 0;
+      transform: translate(-100vw, 0); /* Usar transform */
+  }
+  100% {
+      opacity: 1;
+      transform: translate(0, 0); /* Usar transform */
+  }
+}
+@-moz-keyframes scrolla{
   0%{
       opacity: 0;
       translate: -100vw 0;
@@ -62,11 +104,32 @@ app-main-div{
   #principal{
     left: 20px;
   }
+
 }
 @media (max-width:430px){
   #principal{
     position: relative;
     right: 35px;
+  }
+  #contact_{
+    display: flex;
+    flex-direction: column;
+    .div1{
+      display: none;
+    }
+    form{
+      input{
+        height: 50px;
+        width: 250px;
+        font-size: 20px;
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+      button{
+        width: 200px;
+        padding: 10px;
+      }
+    }
   }
 }
 

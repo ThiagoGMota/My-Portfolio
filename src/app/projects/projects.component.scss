@@ -4,13 +4,14 @@
   height: 90%;
   display: flex;
   flex-direction: row;
-  padding-left: 950px;
+  padding-left: 1400px;
 }
 app-project-card{
   margin-right: 10px;
 }
-@media (max-width:430px) {
+@media (max-width:600px) {
   .projects{
-    padding-left: 1900px;
+    padding-left: 1260px;
+    height: 200px;
   }
 }
