@@ -18,6 +18,15 @@ export class ProjectsComponent {
   projects: Project[] = [
     {
       id: 1,
+      title: 'First Ecommerce',
+      description: 'Ecommerce construido em NextJs, apenas frontend',
+      imageUrl: 'ecomerceMac1.png',
+
+      link:'',
+      linkGitHub:'https://github.com/ThiagoGMota/primeiraLojaVirtual'
+    },
+    {
+      id: 1,
       title: 'MyMoney',
       description: 'Gestor financeiro pessoal',
       imageUrl: 'myMoneyMac.png',
