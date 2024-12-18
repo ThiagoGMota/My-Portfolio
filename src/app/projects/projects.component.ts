@@ -19,7 +19,7 @@ export class ProjectsComponent {
     {
       id: 1,
       title: 'First Ecommerce',
-      description: 'Ecommerce , apenas frontend',
+      description: 'Ecommerce , não hospedado',
       imageUrl: 'ecomerceMac1.png',
 
       link:'',

@@ -119,15 +119,21 @@ app-main-div{
     }
     form{
       input{
-        height: 50px;
+        height: 40px;
         width: 250px;
         font-size: 20px;
         padding: 5px;
         margin-bottom: 20px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid gray;
       }
       button{
         width: 200px;
         padding: 10px;
+        background-color: var(--borda-destaque);
+        border: none;
+        border-radius: 20px;
       }
     }
   }
