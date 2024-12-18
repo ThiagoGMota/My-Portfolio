@@ -19,7 +19,7 @@ export class ProjectsComponent {
     {
       id: 1,
       title: 'First Ecommerce',
-      description: 'Ecommerce construido em NextJs, apenas frontend',
+      description: 'Ecommerce , apenas frontend',
       imageUrl: 'ecomerceMac1.png',
 
       link:'',
