@@ -11,6 +11,7 @@ import { ContatoComponent } from './contato/contato.component';
 import { LanguagesComponent } from './languages/languages.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { CommonModule } from '@angular/common';
+import { AlertaComponent } from "./alerta/alerta.component";
 
 @Component({
   selector: 'app-root',
@@ -21,14 +22,13 @@ import { CommonModule } from '@angular/common';
     NavbarComponent,
     MainDivComponent,
     HomeComponent,
-    SocialMediaComponent,
     AboutMeComponent,
     ServicesComponent,
     ProjectsComponent,
-    ContatoComponent,
+    AlertaComponent,
     LanguagesComponent,
-    ProjectCardComponent
-  ],
+    AlertaComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
